@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namasthey Malaysia | Laksa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <a href="#" class="scroll-top" id="scrollTopBtn">↑</a>
+
+    <header class="solid-header">
+        <a href="index.html" class="logo">Namasthey Malaysia</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="festivals.html" class="">Festivals</a></li>
+            <li><a href="food.html" class="active">Food</a></li>
+            <li><a href="places.html" class="">Places</a></li>
+            <li><a href="about.html">About Me</a></li>
+        </ul>
+    </header>
+
+    <div class="page-hero" style="background: linear-gradient(rgba(3, 115, 126, 0.4), rgba(3, 115, 126, 0.4)), url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Nyonya_Laksa.jpg/960px-Nyonya_Laksa.jpg') center/cover no-repeat;">
+        <h1>Laksa</h1>
+    </div>
+
+    <div class="content-layout">
+        <main class="main-column">
+            <div class="post-item" style="border:none; padding-top:0;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Nyonya_Laksa.jpg/960px-Nyonya_Laksa.jpg" alt="Laksa" class="post-img" style="height: auto; max-height:600px; border-radius: 8px;">
+                <h2 class="post-title">Laksa</h2>
+                <div class="post-meta">STANDARD &nbsp;&middot;&nbsp; 0 Comments</div>
+                <p class="post-desc" style="font-size: 1.2rem;">A spicy noodle soup variant. Penang offers a sour, tamarind-based Asam Laksa while Sarawak features a rich coconut broth.</p>
+                <p class="post-desc" style="margin-top: 2rem;">
+                    Discover more about the vibrant culture and history surrounding <strong>Laksa</strong>. 
+                    This is a deeper dive into the rich experiences that make Namasthey Malaysia an unforgettable destination. 
+                    From local traditions to mesmerizing sights, every detail adds to the tapestry of this magnificent experience.
+                </p>
+                <a href="javascript:history.back()" style="display:inline-block; margin-top:2rem; padding:1rem 2rem; background:var(--accent-orange); color:#fff; text-decoration:none; font-family:var(--font-heading); transition:0.3s;" onmouseover="this.style.background='#2c3e44'" onmouseout="this.style.background='var(--accent-orange)'">← Back to List</a>
+            </div>
+        </main>
+        
+        <aside class="sidebar">
+            <div class="widget">
+                <h3 class="widget-title">Search</h3>
+                <form class="search-form" onsubmit="event.preventDefault(); alert('Search feature coming soon!');">
+                    <svg style="margin:1rem; opacity:0.5;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    <input type="text" placeholder="Search ...">
+                </form>
+            </div>
+            <div class="widget" style="margin-top: 4rem;">
+                <h3 class="widget-title">Categories</h3>
+                <ul class="cat-list">
+                    <li><a href="festivals.html" style="color:inherit; text-decoration:none;">Festivals (10)</a></li>
+                    <li><a href="food.html" style="color:inherit; text-decoration:none;">Food (10)</a></li>
+                    <li><a href="places.html" style="color:inherit; text-decoration:none;">Places (10)</a></li>
+                </ul>
+            </div>
+            <div class="widget" style="margin-top: 4rem;">
+                <h3 class="widget-title">Recent Posts</h3>
+                <a href="batu-caves.html" style="text-decoration:none; color:inherit;">
+                    <div class="recent-post">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Batu_Caves_stairs_2022-05.jpg/960px-Batu_Caves_stairs_2022-05.jpg" alt="Batu Caves" class="recent-img">
+                        <div class="recent-info">
+                            <span>STANDARD &nbsp;•&nbsp; MAY 14, 2026</span>
+                            <h4>Batu Caves</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="nasi-lemak.html" style="text-decoration:none; color:inherit;">
+                    <div class="recent-post">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Nasi_Lemak_dengan_Chili_Nasi_Lemak_dan_Sotong_Pedas%2C_di_Penang_Summer_Restaurant.jpg/960px-Nasi_Lemak_dengan_Chili_Nasi_Lemak_dan_Sotong_Pedas%2C_di_Penang_Summer_Restaurant.jpg" alt="Nasi Lemak" class="recent-img">
+                        <div class="recent-info">
+                            <span>STANDARD &nbsp;•&nbsp; MAY 14, 2026</span>
+                            <h4>Nasi Lemak</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="foot-logo">Namasthey Malaysia</div>
+        <p>&copy; 2026 Maddipatla Bhavanth - INTI University Exchange Program.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
