@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namasthey Malaysia | About Me</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FRBJV7NZ1G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FRBJV7NZ1G');
+</script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Solid Navbar for inner pages -->
+    <header class="solid-header">
+        <a href="index.html" class="logo">Namasthey Malaysia</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="festivals.html">Festivals</a></li>
+            <li><a href="food.html">Food</a></li>
+            <li><a href="places.html">Places</a></li>
+            <li><a href="about.html" class="active">About Me</a></li>
+        </ul>
+    </header>
+
+    <div class="page-hero" style="background: linear-gradient(rgba(3, 115, 126, 0.4), rgba(3, 115, 126, 0.4)), url('https://images.unsplash.com/photo-1596422846543-74c6ca7e42f8?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;">
+        <h1>About the Author</h1>
+    </div>
+
+    <div class="content-layout">
+        <main class="main-column" style="text-align: center; max-width: 800px; margin: 0 auto; padding-right: 0;">
+            <img src="profile.jpg" alt="Profile" style="border-radius: 50%; width: 250px; height: 250px; object-fit: cover; margin-bottom: 2rem; border: 2px solid var(--accent-orange); padding: 10px;">
+            <h2 class="sect-title-orange" style="font-size: 3rem; margin-bottom: 1rem; margin-left: auto; margin-right: auto;">Maddipatla Bhavanth</h2>
+            <p class="sect-sub" style="margin-bottom: 2rem;">Computer Science Exchange Student @ INTI University</p>
+            
+            <p class="post-desc" style="text-align: left;">I am a passionate Computer Science student currently engaged in a semester exchange program at <strong>INTI International University</strong> in Nilai, Malaysia.</p>
+            
+            <p class="post-desc" style="text-align: left;">Throughout this period, I will be exploring the vibrant and diverse culture of Malaysia. From tasting authentic local cuisines in bustling night markets to witnessing the majesty of ancient temples and participating in colorful ethnic festivals, my goal is to document and share these rich experiences.</p>
+            
+            <p class="post-desc" style="text-align: left;">This project reflects my journey of merging modern web development with deep cultural appreciation, inspired by the elegant aesthetics of travel and discovery.</p>
+            
+            <div class="about-bottom-section" style="margin-top: 4rem; display: flex; flex-wrap: wrap; gap: 3rem; text-align: left;">
+                <div class="contact-box" style="flex: 1; min-width: 250px; padding: 2rem; border: 1px solid rgba(0,0,0,0.1);">
+                    <h3 style="font-family: var(--font-heading); margin-bottom: 1rem; color: var(--accent-orange); font-size: 1.8rem;">Contact Me</h3>
+                    <p style="margin-bottom: 1rem;">Have questions or want to connect?</p>
+                    <p>Email: <a href="mailto:bhavanth2006@gmail.com" style="color: var(--accent-orange); font-weight: bold; text-decoration: none;">bhavanth2006@gmail.com</a></p>
+                </div>
+
+                <div class="feedback-box" style="flex: 2; min-width: 300px; padding: 2rem; background: var(--white); border: 1px solid rgba(0,0,0,0.05); box-shadow: 0 5px 20px rgba(0,0,0,0.03);">
+                    <h3 style="font-family: var(--font-heading); margin-bottom: 1.5rem; color: var(--accent-orange); font-size: 1.8rem;">Share Your Feedback</h3>
+                    <form id="feedbackForm" class="feedback-form">
+                        <!-- 1. Name Input -->
+                        <div style="margin-bottom: 1.5rem;">
+                            <label for="feedbackName" style="display: block; font-weight: 500; margin-bottom: 0.8rem; color: var(--text-dark);">Your Name</label>
+                            <input type="text" id="feedbackName" name="name" placeholder="Enter your name" required style="width: 100%; padding: 1rem; font-family: var(--font-body); border: 1px solid rgba(0,0,0,0.1); border-radius: 4px; outline: none; background: var(--bg-cream); color: var(--text-dark);">
+                        </div>
+
+                        <!-- Q1 -->
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; font-weight: 500; margin-bottom: 0.8rem; color: var(--text-dark);">1. How did you rate the content quality?</label>
+                            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="q1_quality" value="Excellent" required> Excellent</label>
+                                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="q1_quality" value="Good" required> Good</label>
+                                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="q1_quality" value="Average" required> Average</label>
+                                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="q1_quality" value="Poor" required> Poor</label>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; font-weight: 500; margin-bottom: 0.8rem; color: var(--text-dark);">2. Was the website easy to navigate?</label>
+                            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="q2_nav" value="Very Easy" required> Very Easy</label>
+                                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="q2_nav" value="Easy" required> Easy</label>
+                                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="q2_nav" value="Difficult" required> Difficult</label>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; font-weight: 500; margin-bottom: 0.8rem; color: var(--text-dark);">3. Did you learn something new about Malaysian culture?</label>
+                            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="q3_learn" value="Yes definitely" required> Yes definitely</label>
+                                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="q3_learn" value="Somewhat" required> Somewhat</label>
+                                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="q3_learn" value="No" required> No</label>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; font-weight: 500; margin-bottom: 0.8rem; color: var(--text-dark);">4. Which section did you enjoy the most?</label>
+                            <select name="q4_section" required style="width: 100%; padding: 1rem; font-family: var(--font-body); border: 1px solid rgba(0,0,0,0.1); border-radius: 4px; outline: none; background: var(--bg-cream); color: var(--text-dark);">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="Festivals">Festivals</option>
+                                <option value="Food">Food</option>
+                                <option value="Places">Places</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; font-weight: 500; margin-bottom: 0.8rem; color: var(--text-dark);">5. Would you recommend this site to others?</label>
+                            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="q5_recommend" value="Yes" required> Yes</label>
+                                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="q5_recommend" value="Maybe" required> Maybe</label>
+                                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="q5_recommend" value="No" required> No</label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn-learn" style="border: none; cursor: pointer; padding: 0.8rem 2rem; font-size: 1rem;">Submit Feedback</button>
+                        <p id="feedbackResponse" style="display: none; margin-top: 1rem; color: var(--accent-green); font-weight: 500;">Thank you for your feedback! It helps us improve.</p>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="foot-logo">Namasthey Malaysia</div>
+        <p>&copy; 2026 Maddipatla Bhavanth - INTI University Exchange Program.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
